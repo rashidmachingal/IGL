@@ -1,0 +1,257 @@
+.main-topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navbar {
+  margin-top: -40px !important;
+  background: #2F4672 !important;
+}
+
+.main-landing h1 {
+  font-size: 45px !important;
+  line-height: 50px !important;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .main-landing{
+    margin-top: -10rem !important;
+  }
+  .main-landing h1 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .landing-height-main{
+    height: 40rem!important;
+  }
+}
+
+.main-about {
+  margin-top: -4rem !important;
+}
+
+.main-contact-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.main-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+  box-shadow: 0 4px 6px #0000001a;
+  border-radius: 10px;
+}
+
+.mainn-contact-item-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.main-contact-item-title{
+  font-weight: 600;
+  color: #9BD94A;
+}
+
+.main-contact-item-content{
+  margin-top: -1.5rem;
+}
+
+.main-contact-item-top .main-contact-item-icon{
+  width: 50px;
+  height: 50px;
+  background: #9BD94A!important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .main-contact-section{
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+}
+
+.about-bg-main {
+  border: 2px solid #9BD94A !important;
+}
+
+.about-bg-main div:first-child {
+  background-size: contain;
+}
+
+.mission-container-main {
+  margin-top: -5rem !important;
+}
+
+.mission-main {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .mission-main {
+    flex-direction: column;
+  }
+  
+}
+
+.bg-main-light {
+  background: #f3f5f6 !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.services-container-main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.services-title-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-title-main h3 {
+  text-align: center;
+}
+
+.services-card-main {
+  width: 33.333% !important;
+}
+
+.services-card-main a {
+  color: white !important;
+  text-transform: capitalize !important;
+}
+
+.services-card-main a:hover {
+  background: #9BD94A;
+}
+
+.read-more-main:hover {
+  background: #2F4672 !important;
+}
+
+.services-title-main h3 {
+  font-size: 22px;
+  color: #f3f5f6;
+}
+
+.white-icon {
+  width: 50px; /* just an example */
+  filter: brightness(0) saturate(100%) invert(1);
+}
+
+
+@media (max-width: 768px) {
+  .services-container-main {
+    width: 100% !important;
+    flex-direction: column;
+    margin-top: 1rem!important;
+  }
+  .services-card-main {
+    width: 100% !important;
+  }
+  .services-title-main .icon{
+    width: 6rem!important;
+    height: 6rem!important;
+  }
+}
+
+
+
+
+
+.service-card-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-card-new img{
+    width: 5rem;
+  }
+  
+  .service-card-new h4{
+    font-size: 18px!important;
+  }
+
+
+  .products-us .content-item {
+    padding: 40px;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: -1px;
+  }
+  
+  .products-us .content-item span {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    color: #6ec083;
+  }
+  
+  .products-us .content-item h4 {
+    font-size: 26px;
+    font-weight: 300;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .products-us .content-item p {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .products-us .content-item {
+      padding: 40px 0;
+    }
+    .height-main-we{
+      margin-top: -10rem!important;
+    }
+    .nav-main-fixed{
+      position: sticky !important;
+      top: 0 !important;
+      z-index: 9999 !important;
+    }
+  }
+
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .whatsapp-float img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-float img:hover {
+    transform: scale(1.1);
+  }
+  
