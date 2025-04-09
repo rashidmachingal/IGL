@@ -265,6 +265,27 @@
   }
   
   .whatsapp-float img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+  }
+  
+  .wechat-float {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .wechat-float img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px #00000033;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+  }
+  
+  .wechat-float img:hover {
+    transform: scale(1.05);
   }
   
